@@ -1,0 +1,178 @@
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #223a5f;
+  color: #ffffff;
+  padding: 40px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.score {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  height: 150px;
+  width: 700px;
+  font-family: 'Roboto';
+}
+
+.postion-yc {
+  position: relative;
+  transform: translateY();
+}
+.m-0 {
+  margin: 0px;
+  font-family: 'Roboto';
+}
+.h-inherit {
+  height: inherit;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hight-100 {
+  height: 90px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  margin: 0px;
+}
+.pd-10 {
+  padding: 10px;
+}
+
+.actualScore {
+  background-color: #ffffff;
+  color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+
+.popup-h {
+  height: 60vh;
+  width: 40vw;
+}
+
+.popup-div {
+  height: 80vh;
+  width: 50vw;
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.w-100 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.game-div {
+  height: 61%;
+  width: 61%;
+}
+
+.game-body {
+  height: 60%;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.game-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* .grid-item {
+  display: inline-grid;
+} */
+.game-img {
+  height: 170px;
+  width: 170px;
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.image-button {
+  width: 120px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.result {
+  height: 60%;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.width-100px {
+  width: 100px;
+  font-weight: 500;
+  height: 100px;
+}
+
+.score-p {
+  font-size: larger;
+  font-weight: 900;
+  font-family: 'Roboto';
+}
+
+.popupContaiiner {
+  width: 100vh;
+  display: flex; /* Set a high z-index to ensure it appears above other content */
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
